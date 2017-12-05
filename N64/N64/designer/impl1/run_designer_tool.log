@@ -1,0 +1,22 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\pearcere\Documents\N64\N64\designer'
+Info: The design N64.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design N64.adb.
+
+The Execute Script command succeeded ( 00:00:26 )
+Design saved to file C:\Users\pearcere\Documents\N64\N64\designer\impl1\N64.adb.
+Wrote pin report to file:
+C:\Users\pearcere\Documents\N64\N64\designer\impl1\N64_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file:
+C:\Users\pearcere\Documents\N64\N64\designer\impl1\N64_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

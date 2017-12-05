@@ -1,6 +1,0 @@
-@W: CL168 :"C:\Users\pearcere\Documents\N64\component\work\N64_MSS\N64_MSS.v":68:0:68:13|Removing instance MSS_ADLIB_INST because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CG133 :"C:\Users\pearcere\Documents\N64\hdl\Send_Request.v":10:10:10:16|Object counter is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL157 :"C:\Users\pearcere\Documents\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\pearcere\Documents\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\pearcere\Documents\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-

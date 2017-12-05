@@ -1,0 +1,128 @@
+----------------------------------------------------------------------
+Report for cell N64.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                            N64_MSS         1       0.0        0.0
+                             OUTBUF        24       0.0        0.0
+                       Read_buttons         1      39.0       39.0
+                       Send_Request         1      71.0       71.0
+                                VCC         1       0.0        0.0
+                clock_divider_100_0         1      25.0       25.0
+                clock_divider_100_1         1      25.0       25.0
+                clock_divider_100_2         1      25.0       25.0
+                            
+                         TOTAL             33                185.0
+----------------------------------------------------------------------
+Report for cell Send_Request.netlist
+     Instance path:  Send_Request_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1        35       1.0       35.0
+                                GND         1       0.0        0.0
+                              NOR2A        12       1.0       12.0
+                                OR2        23       1.0       23.0
+                                OR3         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             73                 71.0
+----------------------------------------------------------------------
+Report for cell Read_buttons.netlist
+     Instance path:  Read_buttons_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         3       1.0        3.0
+                               DFN1        11       1.0       11.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL             41                 39.0
+----------------------------------------------------------------------
+Report for cell N64_MSS.netlist
+     Instance path:  N64_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                          BIBUF_MSS         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+          N64_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  0.0
+----------------------------------------------------------------------
+Report for cell N64_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  N64_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell clock_divider_100_0.netlist
+  Original Cell name clock_divider_100
+     Instance path:  clock_divider_100_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         3       1.0        3.0
+                               DFN1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3C         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL             27                 25.0
+----------------------------------------------------------------------
+Report for cell clock_divider_100_1.netlist
+  Original Cell name clock_divider_100
+     Instance path:  clock_divider_100_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         3       1.0        3.0
+                               DFN1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3C         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL             27                 25.0
+----------------------------------------------------------------------
+Report for cell clock_divider_100_2.netlist
+  Original Cell name clock_divider_100
+     Instance path:  clock_divider_100_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         3       1.0        3.0
+                               DFN1         8       1.0        8.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3C         4       1.0        4.0
+                               OA1B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL             27                 25.0

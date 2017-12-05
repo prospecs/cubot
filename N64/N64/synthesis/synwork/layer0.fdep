@@ -1,0 +1,64 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\pearcere\\Documents\\N64\\N64\\synthesis\\synwork\\N64_comp.srs|-top|N64|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\pearcere\\Documents\\N64\\N64\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1479996624
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487959650
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487959786
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1471626147
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\component\\work\\N64_MSS\\mss_tshell.v":1512416943
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\component\\work\\N64_MSS\\MSS_CCC_0\\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v":1512416940
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\component\\work\\N64_MSS\\N64_MSS.v":1512416944
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\hdl\\Send_Request.v":1512421349
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\hdl\\clock_divider_100.v":1512406469
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\hdl\\Read_buttons.v":1512428061
+#CUR:"C:\\Users\\pearcere\\Documents\\N64\\N64\\component\\work\\N64\\N64.v":1512427083
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\pearcere\Documents\N64\N64\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
+1			"C:\Users\pearcere\Documents\N64\N64\component\work\N64_MSS\mss_tshell.v" verilog
+2			"C:\Users\pearcere\Documents\N64\N64\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+3			"C:\Users\pearcere\Documents\N64\N64\component\work\N64_MSS\N64_MSS.v" verilog
+4			"C:\Users\pearcere\Documents\N64\N64\hdl\Send_Request.v" verilog
+5			"C:\Users\pearcere\Documents\N64\N64\hdl\clock_divider_100.v" verilog
+6			"C:\Users\pearcere\Documents\N64\N64\hdl\Read_buttons.v" verilog
+7			"C:\Users\pearcere\Documents\N64\N64\component\work\N64\N64.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0
+3 2 1 0
+4 -1
+5 -1
+6 -1
+7 5 3 6 4
+#Dependency Lists(Users Of)
+0 2 3
+1 3
+2 3
+3 7
+4 7
+5 7
+6 7
+7 -1
+#Design Unit to File Association
+module work MSS_XTLOSC 0
+module work MSS_LPXTLOSC 0
+module work INBUF_MSS 0
+module work OUTBUF_MSS 0
+module work TRIBUFF_MSS 0
+module work BIBUF_MSS 0
+module work BIBUF_OPEND_MSS 0
+module work INBUF_MCCC 0
+module work INBUF_LVPECL_MCCC 0
+module work INBUF_LVDS_MCCC 0
+module work MSSINT 0
+module work MSS_CCC 0
+module work MSS_ALL 0
+module work MSS_APB 1
+module work N64_MSS_tmp_MSS_CCC_0_MSS_CCC 2
+module work N64_MSS 3
+module work Send_Request 4
+module work clock_divider_100 5
+module work Read_buttons 6
+module work N64 7
