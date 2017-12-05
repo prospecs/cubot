@@ -1,6 +1,6 @@
 <project name="N64" version="1.1">
     <ProjectDirectory>
-        C:\Users\pearcere\Documents\N64\designer\impl1\N64_fp
+        N:\cubot\N64-11-28\designer\impl1\N64_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\pearcere\Documents\N64\designer\impl1\N64_fp\N64.log
+        N:\cubot\N64-11-28\designer\impl1\N64_fp\N64.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -74,7 +74,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\pearcere\Documents\N64\designer\impl1\N64_fp\N64.pdb
+                N:\cubot\N64-11-28\designer\impl1\N64_fp\N64.pdb
             </filename>
             <local>
                 projectData\N64.pdb

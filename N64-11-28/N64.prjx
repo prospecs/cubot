@@ -30,7 +30,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\pearcere\Documents\N64"
+KEY ProjectLocation "N:\cubot\N64-11-28"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -49,166 +49,31 @@ COMPILE_OPTION=REFRESH_AND_COMPILE
 CUSTOMPATH=false
 ENDLIST
 LIST FileManager
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908783"
-SIZE="945"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v,hdl"
-STATE="utd"
-TIME="1471626147"
-SIZE="11243"
-PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
-BEGIN_USE_CONSTRAINT
-TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
-TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
-END_USE_CONSTRAINT
-USE_FOR_ANY_TOOL="FALSE"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ACE\2.2.100\MSS_ACE.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908778"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908779"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908779"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908779"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908779"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.200\MSS_ENVM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="253"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="253"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="253"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="254"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="252"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="254"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="254"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusionMSS\MSS_WATCHDOG\1.0.101\MSS_WATCHDOG.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908781"
-SIZE="257"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
-TIME="1511302975"
+TIME="1512501022"
 SIZE="2211"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1511302984"
+TIME="1512501022"
 SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\N64\N64.cxf,actgen_cxf"
 STATE="utd"
-TIME="1511908790"
+TIME="1512501023"
 SIZE="2683"
 ENDFILE
 VALUE "<project>\component\work\N64\N64.v,hdl"
 STATE="utd"
-TIME="1511908788"
+TIME="1512501023"
 SIZE="2722"
 PARENT="<project>\component\work\N64\N64.cxf"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>\component\work\N64_MSS\MSS_ACE_0\MSS_ACE_0.log,???"
-STATE="utd"
-TIME="1511908778"
-SIZE="31587"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
-STATE="utd"
-TIME="1511908779"
-SIZE="481"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
-STATE="utd"
-TIME="1511908779"
-SIZE="2881"
-PARENT="<project>\component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\N64_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
-STATE="utd"
-TIME="1511908781"
-SIZE="15504"
-PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
-IS_READONLY="TRUE"
-ENDFILE
 VALUE "<project>\component\work\N64_MSS\mss_tshell.v,hdl"
 STATE="utd"
-TIME="1511908782"
+TIME="1512501022"
 SIZE="12226"
 PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -220,7 +85,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\N64_MSS\mss_tshell_syn.sdc,sdc"
 STATE="utd"
-TIME="1511908782"
+TIME="1512501022"
 SIZE="186"
 PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -232,128 +97,123 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\N64_MSS\N64_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1511908784"
+TIME="1512501022"
 SIZE="8106"
 ENDFILE
 VALUE "<project>\component\work\N64_MSS\N64_MSS.v,hdl"
 STATE="utd"
-TIME="1511908783"
+TIME="1512501022"
 SIZE="15866"
 PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\N64.adb,adb"
 STATE="ood"
-TIME="1511309740"
-SIZE="128512"
+TIME="1512501019"
+SIZE="145920"
 ENDFILE
 VALUE "<project>\designer\impl1\N64.fdb,fdb"
 STATE="ood"
-TIME="1511909063"
+TIME="1512501020"
 SIZE="41376"
 ENDFILE
 VALUE "<project>\designer\impl1\N64.ide_des,ide_des"
 STATE="utd"
-TIME="1511309740"
-SIZE="941"
+TIME="1512501019"
+SIZE="940"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_compile_log.rpt,log"
 STATE="utd"
-TIME="1511909026"
+TIME="1512501019"
 SIZE="8639"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_fp\N64.pdb,pdb"
 STATE="ood"
-TIME="1511309760"
-SIZE="46034"
+TIME="1512501020"
+SIZE="46798"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_fp\N64.pro,pro"
 STATE="utd"
-TIME="1511309800"
+TIME="1512501020"
 SIZE="2339"
-ENDFILE
-VALUE "<project>\designer\impl1\N64_fp\projectData\N64.pdb,pdb"
-STATE="utd"
-TIME="1511309800"
-SIZE="46034"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1511909045"
+TIME="1512501018"
 SIZE="2577"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1511909064"
+TIME="1512501018"
 SIZE="618"
 ENDFILE
 VALUE "<project>\designer\impl1\N64_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1511909049"
+TIME="1512501018"
 SIZE="1098"
 ENDFILE
 VALUE "<project>\hdl\clock_divider_100.v,hdl"
 STATE="utd"
-TIME="1511908834"
+TIME="1512501010"
 SIZE="343"
 ENDFILE
 VALUE "<project>\hdl\debouncer.v,hdl"
 STATE="utd"
-TIME="1511307186"
+TIME="1512501010"
 SIZE="1167"
 ENDFILE
 VALUE "<project>\hdl\Response.v,hdl"
 STATE="utd"
-TIME="1511302522"
+TIME="1512501010"
 SIZE="0"
 ENDFILE
 VALUE "<project>\hdl\Send_Request.v,hdl"
 STATE="utd"
-TIME="1511911825"
+TIME="1512501010"
 SIZE="859"
 ENDFILE
 VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 STATE="utd"
-TIME="1471626147"
+TIME="1512501029"
 SIZE="41"
 PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1511908788"
+TIME="1512501029"
 SIZE="602"
 PARENT="<project>\component\work\N64\N64.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1511908779"
+TIME="1512501029"
 SIZE="5460"
 PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\user.bfm,sim"
 STATE="utd"
-TIME="1511302976"
+TIME="1512501029"
 SIZE="670"
 PARENT="<project>\component\work\N64_MSS\N64_MSS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\N64.edn,syn_edn"
 STATE="ood"
-TIME="1511309694"
-SIZE="75408"
+TIME="1512501012"
+SIZE="87806"
 ENDFILE
 VALUE "<project>\synthesis\N64.so,so"
 STATE="utd"
-TIME="1511309694"
+TIME="1512501012"
 SIZE="207"
 ENDFILE
 VALUE "<project>\synthesis\N64_sdc.sdc,syn_sdc"
 STATE="ood"
-TIME="1511309694"
+TIME="1512501012"
 SIZE="421"
 ENDFILE
 VALUE "<project>\synthesis\N64_syn.prj,prj"
 STATE="utd"
-TIME="1511309694"
+TIME="1512501011"
 SIZE="2411"
 ENDFILE
 ENDLIST
@@ -459,8 +319,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -506,18 +366,10 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:N64_prgdata_log.rpt
-SmartDesign;N64_MSS;0
-SmartDesign;N64;0
-HDL;hdl\Send_Request.v;0
-ACTIVEVIEW;hdl\Send_Request.v
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
-LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "BIBUF_OPEND_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
 LIST "clock_divider_100::work","hdl\clock_divider_100.v","FALSE","FALSE"
 ENDLIST
 LIST "debouncer::work","hdl\debouncer.v","FALSE","FALSE"
@@ -538,27 +390,13 @@ LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
 ENDLIST
 LIST "HAL::work","","FALSE","FALSE"
 ENDLIST
-LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "INBUF_LVPECL_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "INBUF_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "INBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
 LIST "MSS_ACE_Driver::work","","FALSE","FALSE"
 ENDLIST
-LIST "MSS_ALL::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
 LIST "MSS_APB::work","component\work\N64_MSS\mss_tshell.v","FALSE","FALSE"
-ENDLIST
-LIST "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "MSS_GPIO_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "MSS_IAP_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "MSS_LPXTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "MSS_NVM_Driver::work","","FALSE","FALSE"
 ENDLIST
@@ -570,30 +408,21 @@ LIST "MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "MSS_Watchdog_Driver::work","","FALSE","FALSE"
 ENDLIST
-LIST "MSS_XTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "MSSINT::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
 LIST "N64::work","component\work\N64\N64.v","TRUE","FALSE"
 SUBBLOCK "N64_MSS::work","component\work\N64_MSS\N64_MSS.v","TRUE","FALSE"
-SUBBLOCK "debouncer::work","hdl\debouncer.v","FALSE","FALSE"
-SUBBLOCK "clock_divider_100::work","hdl\clock_divider_100.v","FALSE","FALSE"
 SUBBLOCK "Send_Request::work","hdl\Send_Request.v","FALSE","FALSE"
+SUBBLOCK "clock_divider_100::work","hdl\clock_divider_100.v","FALSE","FALSE"
+SUBBLOCK "debouncer::work","hdl\debouncer.v","FALSE","FALSE"
 ENDLIST
 LIST "N64_MSS::work","component\work\N64_MSS\N64_MSS.v","TRUE","FALSE"
 SUBBLOCK "MSS_APB::work","component\work\N64_MSS\mss_tshell.v","FALSE","FALSE"
-SUBBLOCK "N64_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v","FALSE","FALSE"
+SUBBLOCK "N64_MSS_tmp_MSS_CCC_0_MSS_CCC::work","","FALSE","FALSE"
 ENDLIST
-LIST "N64_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\N64_MSS\MSS_CCC_0\N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v","FALSE","FALSE"
-SUBBLOCK "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
-ENDLIST
-LIST "OUTBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
+LIST "N64_MSS_tmp_MSS_CCC_0_MSS_CCC::work","","FALSE","FALSE"
 ENDLIST
 LIST "Send_Request::work","hdl\Send_Request.v","FALSE","FALSE"
 ENDLIST
 LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
-ENDLIST
-LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
