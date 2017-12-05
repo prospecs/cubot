@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Nov 28 17:39:44 2017
+Project   :  C:\Users\pearcere\Documents\N64
+Component :  N64_MSS
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/pearcere/Documents/N64/component/work/N64_MSS/MSS_CCC_0/N64_MSS_tmp_MSS_CCC_0_MSS_CCC.v
+    C:/Users/pearcere/Documents/N64/component/work/N64_MSS/N64_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/pearcere/Documents/N64/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    C:/Users/pearcere/Documents/N64/component/work/N64_MSS/mss_tshell.v
+    C:/Users/pearcere/Documents/N64/component/work/N64_MSS/mss_tshell_syn.sdc
+
+Stimulus files for all Simulation tools:
+    C:/Users/pearcere/Documents/N64/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    C:/Users/pearcere/Documents/N64/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    C:/Users/pearcere/Documents/N64/component/work/N64_MSS/MSS_ENVM_0/test.bfm
+

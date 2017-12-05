@@ -1,0 +1,32 @@
+********************************************************************
+                            Global Net Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Tue Nov 28 17:44:03 2017
+Design Name: N64  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+
+
+Automatic Global Net Placement Result:
+Status: Global net placement completed successfully
+
+
+Global Nets Information:
+
+        |-----------------------------------------------------|
+        |Global Nets         |Loads                           |
+        |-----------------------------------------------------|
+        |Name                |Core      |IO        |RAM       |
+        |-----------------------------------------------------|
+        |FAB_CLK             |       28 |        1 |        0 |
+        |-----------------------------------------------------|
+
+Summary of Global Net Placement:
+
+        |------------------------------------------------------------------------|
+        |Global Net          |Assignment          |Violation                     |
+        |------------------------------------------------------------------------|
+        |FAB_CLK             |MIDDLE_LEFT         |                              |
+        |------------------------------------------------------------------------|

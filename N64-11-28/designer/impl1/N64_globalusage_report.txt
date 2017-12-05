@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Tue Nov 28 17:44:03 2017
+Design Name: N64  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    29                Net   : FAB_CLK
+                      Driver: N64_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1
+
+
+
+

@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Nov 28 17:39:50 2017
+Project   :  C:\Users\pearcere\Documents\N64
+Component :  N64
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/pearcere/Documents/N64/component/work/N64/N64.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/pearcere/Documents/N64/component/work/N64/subsystem.bfm
+
