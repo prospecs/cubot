@@ -1,0 +1,46 @@
+FlashPro
+Version: 11.8.0.26
+Release: v11.8
+
+Software Version: 11.8.0.26
+PDB file 'N:\cubot\Controller\designer\impl1\Controller_fp\Controller.pdb' has been loaded
+successfully.
+DESIGN : Controller;  CHECKSUM : DE96;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '79023' : FlashPro3
+Opened 'N:\cubot\Controller\designer\impl1\Controller_fp\Controller.pro'
+The 'open_project' command succeeded.
+The 'set_programming_file' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file
+      N:\cubot\Controller\component\work\Controller_MSS\MSS_ENVM_0\MSS_ENVM_0.efc.
+Info: Adding FPGA Array data from file N:\cubot\Controller\designer\impl1\Controller.fdb.
+PDB file 'N:\cubot\Controller\designer\impl1\Controller_fp\Controller.pdb' has been loaded
+successfully.
+DESIGN : Controller;  CHECKSUM : AD97;  PDB_VERSION : 1.9
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '79023' : Scan Chain...
+Warning: programmer '79023' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '79023' : Scan Chain PASSED.
+programmer '79023' : Executing action PROGRAM
+programmer '79023' : EXPORT FSN[48] = 014b3e649840
+programmer '79023' : Erase ...
+programmer '79023' : Completed erase
+programmer '79023' : EXPORT CHECKSUM[16] = ad97
+programmer '79023' : Programming FPGA Array
+programmer '79023' : Verifying FPGA Array
+programmer '79023' :         Verifying FPGA Array -- pass
+programmer '79023' : Program System Init and Boot Clients...
+programmer '79023' : Verify System Init and Boot Clients...
+programmer '79023' : Finished: Sat Dec 09 15:24:11 2017 (Elapsed time 00:00:36)
+programmer '79023' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

@@ -1,0 +1,18 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design N:/cubot/Controller/designer/impl1/Controller.adb was last modified by software
+      version 11.8.0.26.
+Opened an existing Libero design N:/cubot/Controller/designer/impl1/Controller.adb.
+
+The Export-map command succeeded ( 00:00:15 )
+CHECKSUM: AD97
+Wrote to the file: N:\cubot\Controller\designer\impl1\Controller.fdb
+
+The Export command succeeded ( 00:00:17 )
+Design saved to file N:/cubot/Controller/designer/impl1/Controller.adb.
+
+The Execute Script command succeeded ( 00:00:19 )
+Design closed.
+

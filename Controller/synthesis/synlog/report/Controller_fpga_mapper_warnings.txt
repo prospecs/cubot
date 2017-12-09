@@ -1,0 +1,2 @@
+@W: MT462 :"n:\cubot\controller\hdl\clock_divider_100.v":8:0:8:5|Net clock_divider_100_0.clk100 appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@W: MT462 :"n:\cubot\controller\hdl\clock_divider_100.v":8:0:8:5|Net clock_divider_100_1.clk100 appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.

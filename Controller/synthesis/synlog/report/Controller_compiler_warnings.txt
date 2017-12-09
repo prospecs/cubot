@@ -1,0 +1,11 @@
+@W: CL169 :"N:\cubot\Controller\hdl\Read_buttons.v":20:0:20:5|Pruning unused register q0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"N:\cubot\Controller\hdl\Read_buttons.v":20:0:20:5|Pruning unused register q1. Make sure that there are no unused intermediate registers.
+@W: CL271 :"N:\cubot\Controller\hdl\Read_buttons.v":20:0:20:5|Pruning unused bits 40 to 8 of button_read[40:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"N:\cubot\Controller\hdl\Send_request.v":16:0:16:5|Pruning unused register direction. Make sure that there are no unused intermediate registers.
+@W: CL260 :"N:\cubot\Controller\hdl\Send_request.v":16:0:16:5|Pruning register bit 0 of poll[35:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"N:\cubot\Controller\hdl\Send_request.v":16:0:16:5|Pruning register bit 1 of poll[35:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"N:\cubot\Controller\hdl\Send_request.v":16:0:16:5|Pruning register bit 2 of poll[35:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL157 :"N:\cubot\Controller\component\work\Controller_MSS\MSS_CCC_0\Controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"N:\cubot\Controller\component\work\Controller_MSS\MSS_CCC_0\Controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"N:\cubot\Controller\component\work\Controller_MSS\MSS_CCC_0\Controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

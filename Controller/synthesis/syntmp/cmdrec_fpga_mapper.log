@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  N:\cubot\Controller\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile N:\cubot\Controller\synthesis\synlog\report\Controller_fpga_mapper.xml  -top_level_module  Controller  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  N:\cubot\Controller\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  N:\cubot\Controller\synthesis\Controller.edn   -freq 100.000   -tcl  N:\cubot\Controller\component\work\Controller_MSS\mss_tshell_syn.sdc  N:\cubot\Controller\synthesis\synwork\Controller_prem.srd  -sap  N:\cubot\Controller\synthesis\Controller.sap  -otap  N:\cubot\Controller\synthesis\Controller.tap  -omap  N:\cubot\Controller\synthesis\Controller.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  N:\cubot\Controller\synthesis\Controller.sap  -ologparam  N:\cubot\Controller\synthesis\syntmp\Controller.plg  -osyn  N:\cubot\Controller\synthesis\Controller.srm  -prjdir  N:\cubot\Controller\synthesis\  -prjname  Controller_syn  -log  N:\cubot\Controller\synthesis\synlog\Controller_fpga_mapper.srr 
+rc:1 success:1 runtime:2
+file:N:\cubot\Controller\synthesis\scratchproject.prs|io:o|time:1512512183|size:2375|exec:0
+file:N:\cubot\Controller\synthesis\Controller.edn|io:o|time:1512850264|size:197494|exec:0
+file:N:\cubot\Controller\component\work\Controller_MSS\mss_tshell_syn.sdc|io:i|time:1512506532|size:200|exec:0
+file:N:\cubot\Controller\synthesis\synwork\Controller_prem.srd|io:i|time:1512850260|size:18625|exec:0
+file:N:\cubot\Controller\synthesis\Controller.sap|io:o|time:1512850261|size:1269|exec:0
+file:N:\cubot\Controller\synthesis\Controller.tap|io:o|time:0|size:0|exec:0
+file:N:\cubot\Controller\synthesis\Controller.map|io:o|time:1512850264|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487959650|size:72817|exec:0
+file:N:\cubot\Controller\synthesis\Controller.sap|io:o|time:1512850261|size:1269|exec:0
+file:N:\cubot\Controller\synthesis\syntmp\Controller.plg|io:o|time:1512850264|size:864|exec:0
+file:N:\cubot\Controller\synthesis\Controller.srm|io:o|time:1512850264|size:67009|exec:0
+file:N:\cubot\Controller\synthesis\synlog\Controller_fpga_mapper.srr|io:o|time:1512850264|size:26768|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479392234|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479393640|size:14125056|exec:1

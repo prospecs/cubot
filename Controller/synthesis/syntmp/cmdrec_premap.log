@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  N:\cubot\Controller\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  N:\cubot\Controller\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile N:\cubot\Controller\synthesis\synlog\report\Controller_premap.xml  -top_level_module  Controller  -oedif  N:\cubot\Controller\synthesis\Controller.edn  -conchk_prepass  N:\cubot\Controller\synthesis\Controller_cck.rpt   -freq 100.000   -tcl  N:\cubot\Controller\component\work\Controller_MSS\mss_tshell_syn.sdc  N:\cubot\Controller\synthesis\synwork\Controller_mult.srs  -flow prepass  -gcc_prepass  -osrd  N:\cubot\Controller\synthesis\synwork\Controller_prem.srd  -qsap  N:\cubot\Controller\synthesis\Controller.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  N:\cubot\Controller\synthesis\syntmp\Controller.plg  -osyn  N:\cubot\Controller\synthesis\synwork\Controller_prem.srd  -prjdir  N:\cubot\Controller\synthesis\  -prjname  Controller_syn  -log  N:\cubot\Controller\synthesis\synlog\Controller_premap.srr 
+rc:1 success:1 runtime:3
+file:N:\cubot\Controller\synthesis\scratchproject.prs|io:o|time:1512512183|size:2375|exec:0
+file:N:\cubot\Controller\synthesis\Controller.edn|io:o|time:1512849087|size:188230|exec:0
+file:N:\cubot\Controller\synthesis\Controller_cck.rpt|io:o|time:1512850261|size:24150|exec:0
+file:N:\cubot\Controller\component\work\Controller_MSS\mss_tshell_syn.sdc|io:i|time:1512506532|size:200|exec:0
+file:N:\cubot\Controller\synthesis\synwork\Controller_mult.srs|io:i|time:1512850258|size:3064|exec:0
+file:N:\cubot\Controller\synthesis\synwork\Controller_prem.srd|io:o|time:1512850260|size:18625|exec:0
+file:N:\cubot\Controller\synthesis\Controller.sap|io:o|time:1512850261|size:1269|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487959650|size:72817|exec:0
+file:N:\cubot\Controller\synthesis\syntmp\Controller.plg|io:o|time:1512850259|size:0|exec:0
+file:N:\cubot\Controller\synthesis\synwork\Controller_prem.srd|io:o|time:1512850260|size:18625|exec:0
+file:N:\cubot\Controller\synthesis\synlog\Controller_premap.srr|io:o|time:1512850261|size:5101|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479392234|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479393640|size:14125056|exec:1

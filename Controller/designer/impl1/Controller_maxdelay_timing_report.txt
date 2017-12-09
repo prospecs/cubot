@@ -1,0 +1,1105 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sat Dec 09 15:22:41 2017
+
+
+Design: Controller
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_gla1
+Period (ns):                7.103
+Frequency (MHz):            140.786
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        -0.115
+External Hold (ns):         3.071
+Min Clock-To-Out (ns):      5.671
+Max Clock-To-Out (ns):      15.333
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                12.500
+Frequency (MHz):            80.000
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               Controller_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               clock_divider_100_0/clk100:Q
+Period (ns):                7.836
+Frequency (MHz):            127.616
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.987
+Max Clock-To-Out (ns):      7.389
+
+Clock Domain:               clock_divider_100_1/clk100:Q
+Period (ns):                7.729
+Frequency (MHz):            129.383
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             3.329
+Max Delay (ns):             8.128
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla1
+
+SET Register to Register
+
+Path 1
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          Read_buttons_0/state[1]:E
+  Delay (ns):                  6.543
+  Slack (ns):                  2.897
+  Arrival (ns):                11.788
+  Required (ns):               14.685
+  Setup (ns):                  0.554
+  Minimum Period (ns):         7.103
+
+Path 2
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          Read_buttons_0/state[8]:D
+  Delay (ns):                  6.460
+  Slack (ns):                  3.033
+  Arrival (ns):                11.705
+  Required (ns):               14.738
+  Setup (ns):                  0.522
+  Minimum Period (ns):         6.967
+
+Path 3
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          Read_buttons_0/state[3]:E
+  Delay (ns):                  6.416
+  Slack (ns):                  3.045
+  Arrival (ns):                11.661
+  Required (ns):               14.706
+  Setup (ns):                  0.554
+  Minimum Period (ns):         6.955
+
+Path 4
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          Read_buttons_0/state[7]:E
+  Delay (ns):                  6.413
+  Slack (ns):                  3.048
+  Arrival (ns):                11.658
+  Required (ns):               14.706
+  Setup (ns):                  0.554
+  Minimum Period (ns):         6.952
+
+Path 5
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          Read_buttons_0/state[5]:D
+  Delay (ns):                  6.473
+  Slack (ns):                  3.052
+  Arrival (ns):                11.718
+  Required (ns):               14.770
+  Setup (ns):                  0.490
+  Minimum Period (ns):         6.948
+
+
+Expanded Path 1
+  From: Read_buttons_0/prev_readline[0]:CLK
+  To: Read_buttons_0/state[1]:E
+  data required time                             14.685
+  data arrival time                          -   11.788
+  slack                                          2.897
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     4.630          Clock generation
+  4.630
+               +     0.000          net: Controller_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  4.630                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  4.630                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.615          net: FAB_CLK
+  5.245                        Read_buttons_0/prev_readline[0]:CLK (r)
+               +     0.528          cell: ADLIB:DFN1
+  5.773                        Read_buttons_0/prev_readline[0]:Q (r)
+               +     0.659          net: prev_readline_c[0]
+  6.432                        Read_buttons_0/prev_readline_RNI6F9D[0]:B (r)
+               +     0.538          cell: ADLIB:OR2
+  6.970                        Read_buttons_0/prev_readline_RNI6F9D[0]:Y (r)
+               +     0.305          net: Read_buttons_0/un1_reset_4
+  7.275                        Read_buttons_0/prev_readline_RNIHCS71[0]:C (r)
+               +     0.584          cell: ADLIB:OR3
+  7.859                        Read_buttons_0/prev_readline_RNIHCS71[0]:Y (r)
+               +     0.897          net: Read_buttons_0/un1_reset_7
+  8.756                        Read_buttons_0/prev_readline_RNIRQK62[4]:B (r)
+               +     0.848          cell: ADLIB:OA1B
+  9.604                        Read_buttons_0/prev_readline_RNIRQK62[4]:Y (r)
+               +     0.515          net: reset_c
+  10.119                       Read_buttons_0/statelde:B (r)
+               +     0.584          cell: ADLIB:OR3A
+  10.703                       Read_buttons_0/statelde:Y (r)
+               +     1.085          net: Read_buttons_0/statee
+  11.788                       Read_buttons_0/state[1]:E (r)
+                                    
+  11.788                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  10.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  10.000                       Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     4.630          Clock generation
+  14.630
+               +     0.000          net: Controller_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  14.630                       Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  14.630                       Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.609          net: FAB_CLK
+  15.239                       Read_buttons_0/state[1]:CLK (r)
+               -     0.554          Library setup time: ADLIB:DFN1E1
+  14.685                       Read_buttons_0/state[1]:E
+                                    
+  14.685                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        readline
+  To:                          Read_buttons_0/state[1]:E
+  Delay (ns):                  4.729
+  Slack (ns):
+  Arrival (ns):                4.729
+  Required (ns):
+  Setup (ns):                  0.395
+  External Setup (ns):         -0.115
+
+Path 2
+  From:                        readline
+  To:                          Read_buttons_0/state[5]:D
+  Delay (ns):                  4.513
+  Slack (ns):
+  Arrival (ns):                4.513
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         -0.257
+
+Path 3
+  From:                        readline
+  To:                          Read_buttons_0/state[8]:D
+  Delay (ns):                  4.472
+  Slack (ns):
+  Arrival (ns):                4.472
+  Required (ns):
+  Setup (ns):                  0.490
+  External Setup (ns):         -0.298
+
+Path 4
+  From:                        readline
+  To:                          Read_buttons_0/state[7]:E
+  Delay (ns):                  4.564
+  Slack (ns):
+  Arrival (ns):                4.564
+  Required (ns):
+  Setup (ns):                  0.395
+  External Setup (ns):         -0.301
+
+Path 5
+  From:                        readline
+  To:                          Read_buttons_0/state[3]:E
+  Delay (ns):                  4.564
+  Slack (ns):
+  Arrival (ns):                4.564
+  Required (ns):
+  Setup (ns):                  0.395
+  External Setup (ns):         -0.301
+
+
+Expanded Path 1
+  From: readline
+  To: Read_buttons_0/state[1]:E
+  data required time                             N/C
+  data arrival time                          -   4.729
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        readline (r)
+               +     0.000          net: readline
+  0.000                        readline_pad/U0/U0:PAD (r)
+               +     0.967          cell: ADLIB:IOPAD_IN
+  0.967                        readline_pad/U0/U0:Y (r)
+               +     0.000          net: readline_pad/U0/NET1
+  0.967                        readline_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  1.006                        readline_pad/U0/U1:Y (r)
+               +     1.049          net: readline_c
+  2.055                        Read_buttons_0/prev_readline_RNIRQK62[4]:C (r)
+               +     0.369          cell: ADLIB:OA1B
+  2.424                        Read_buttons_0/prev_readline_RNIRQK62[4]:Y (f)
+               +     0.473          net: reset_c
+  2.897                        Read_buttons_0/statelde:B (f)
+               +     0.650          cell: ADLIB:OR3A
+  3.547                        Read_buttons_0/statelde:Y (f)
+               +     1.182          net: Read_buttons_0/statee
+  4.729                        Read_buttons_0/state[1]:E (f)
+                                    
+  4.729                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     4.630          Clock generation
+  N/C
+               +     0.000          net: Controller_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.609          net: FAB_CLK
+  N/C                          Read_buttons_0/state[1]:CLK (r)
+               -     0.395          Library setup time: ADLIB:DFN1E1
+  N/C                          Read_buttons_0/state[1]:E
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        Read_buttons_0/prev_readline[0]:CLK
+  To:                          reset
+  Delay (ns):                  10.088
+  Slack (ns):
+  Arrival (ns):                15.333
+  Required (ns):
+  Clock to Out (ns):           15.333
+
+Path 2
+  From:                        Read_buttons_0/prev_readline[1]:CLK
+  To:                          reset
+  Delay (ns):                  9.750
+  Slack (ns):
+  Arrival (ns):                15.001
+  Required (ns):
+  Clock to Out (ns):           15.001
+
+Path 3
+  From:                        Read_buttons_0/prev_readline[8]:CLK
+  To:                          reset
+  Delay (ns):                  9.651
+  Slack (ns):
+  Arrival (ns):                14.894
+  Required (ns):
+  Clock to Out (ns):           14.894
+
+Path 4
+  From:                        Read_buttons_0/prev_readline[9]:CLK
+  To:                          reset
+  Delay (ns):                  9.566
+  Slack (ns):
+  Arrival (ns):                14.811
+  Required (ns):
+  Clock to Out (ns):           14.811
+
+Path 5
+  From:                        Read_buttons_0/prev_readline[3]:CLK
+  To:                          reset
+  Delay (ns):                  9.579
+  Slack (ns):
+  Arrival (ns):                14.809
+  Required (ns):
+  Clock to Out (ns):           14.809
+
+
+Expanded Path 1
+  From: Read_buttons_0/prev_readline[0]:CLK
+  To: reset
+  data required time                             N/C
+  data arrival time                          -   15.333
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     4.630          Clock generation
+  4.630
+               +     0.000          net: Controller_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  4.630                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  4.630                        Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.615          net: FAB_CLK
+  5.245                        Read_buttons_0/prev_readline[0]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  5.916                        Read_buttons_0/prev_readline[0]:Q (f)
+               +     0.689          net: prev_readline_c[0]
+  6.605                        Read_buttons_0/prev_readline_RNI6F9D[0]:B (f)
+               +     0.592          cell: ADLIB:OR2
+  7.197                        Read_buttons_0/prev_readline_RNI6F9D[0]:Y (f)
+               +     0.314          net: Read_buttons_0/un1_reset_4
+  7.511                        Read_buttons_0/prev_readline_RNIHCS71[0]:C (f)
+               +     0.604          cell: ADLIB:OR3
+  8.115                        Read_buttons_0/prev_readline_RNIHCS71[0]:Y (f)
+               +     0.935          net: Read_buttons_0/un1_reset_7
+  9.050                        Read_buttons_0/prev_readline_RNIRQK62[4]:B (f)
+               +     0.579          cell: ADLIB:OA1B
+  9.629                        Read_buttons_0/prev_readline_RNIRQK62[4]:Y (f)
+               +     1.735          net: reset_c
+  11.364                       reset_pad/U0/U1:D (f)
+               +     0.600          cell: ADLIB:IOTRI_OB_EB
+  11.964                       reset_pad/U0/U1:DOUT (f)
+               +     0.000          net: reset_pad/U0/NET1
+  11.964                       reset_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  15.333                       reset_pad/U0/U0:PAD (f)
+               +     0.000          net: reset
+  15.333                       reset (f)
+                                    
+  15.333                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          Controller_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     4.630          Clock generation
+  N/C
+                                    
+  N/C                          reset (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+Info: The maximum frequency of this clock domain is limited by the period of pin Controller_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain Controller_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain clock_divider_100_0/clk100:Q
+
+SET Register to Register
+
+Path 1
+  From:                        clock_divider_100_1/counter[0]:CLK
+  To:                          clock_divider_100_1/clk100:D
+  Delay (ns):                  5.823
+  Slack (ns):
+  Arrival (ns):                8.533
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.836
+
+Path 2
+  From:                        clock_divider_100_1/counter[0]:CLK
+  To:                          clock_divider_100_1/counter[6]:D
+  Delay (ns):                  5.908
+  Slack (ns):
+  Arrival (ns):                8.618
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.395
+
+Path 3
+  From:                        clock_divider_100_1/counter[2]:CLK
+  To:                          clock_divider_100_1/clk100:D
+  Delay (ns):                  6.169
+  Slack (ns):
+  Arrival (ns):                8.043
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.346
+
+Path 4
+  From:                        clock_divider_100_1/counter[6]:CLK
+  To:                          clock_divider_100_1/clk100:D
+  Delay (ns):                  6.069
+  Slack (ns):
+  Arrival (ns):                7.941
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.244
+
+Path 5
+  From:                        clock_divider_100_1/counter[0]:CLK
+  To:                          clock_divider_100_1/counter[5]:D
+  Delay (ns):                  4.847
+  Slack (ns):
+  Arrival (ns):                7.557
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.210
+
+
+Expanded Path 1
+  From: clock_divider_100_1/counter[0]:CLK
+  To: clock_divider_100_1/clk100:D
+  data required time                             N/C
+  data arrival time                          -   8.533
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock_divider_100_0/clk100:Q
+               +     0.000          Clock source
+  0.000                        clock_divider_100_0/clk100:Q (r)
+               +     2.710          net: clk100_c
+  2.710                        clock_divider_100_1/counter[0]:CLK (r)
+               +     0.595          cell: ADLIB:DFN1
+  3.305                        clock_divider_100_1/counter[0]:Q (f)
+               +     2.549          net: clock_divider_100_1/counter[0]
+  5.854                        clock_divider_100_1/clk100_RNO_2:B (f)
+               +     0.445          cell: ADLIB:NOR2A
+  6.299                        clock_divider_100_1/clk100_RNO_2:Y (r)
+               +     0.282          net: clock_divider_100_1/clk1007_1
+  6.581                        clock_divider_100_1/clk100_RNO_0:A (r)
+               +     0.445          cell: ADLIB:NOR3C
+  7.026                        clock_divider_100_1/clk100_RNO_0:Y (r)
+               +     0.306          net: clock_divider_100_1/clk1007
+  7.332                        clock_divider_100_1/clk100_RNO:B (r)
+               +     0.895          cell: ADLIB:OA1B
+  8.227                        clock_divider_100_1/clk100_RNO:Y (r)
+               +     0.306          net: clock_divider_100_1/clk100_RNO_0
+  8.533                        clock_divider_100_1/clk100:D (r)
+                                    
+  8.533                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock_divider_100_0/clk100:Q
+               +     0.000          Clock source
+  N/C                          clock_divider_100_0/clk100:Q (r)
+               +     1.346          net: clk100_c
+  N/C                          clock_divider_100_1/clk100:CLK (r)
+               -     0.649          Library setup time: ADLIB:DFN1
+  N/C                          clock_divider_100_1/clk100:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        Send_Request_0/poll[35]:CLK
+  To:                          poll_signal
+  Delay (ns):                  6.177
+  Slack (ns):
+  Arrival (ns):                7.389
+  Required (ns):
+  Clock to Out (ns):           7.389
+
+
+Expanded Path 1
+  From: Send_Request_0/poll[35]:CLK
+  To: poll_signal
+  data required time                             N/C
+  data arrival time                          -   7.389
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock_divider_100_0/clk100:Q
+               +     0.000          Clock source
+  0.000                        clock_divider_100_0/clk100:Q (r)
+               +     1.212          net: clk100_c
+  1.212                        Send_Request_0/poll[35]:CLK (r)
+               +     0.595          cell: ADLIB:DFN1
+  1.807                        Send_Request_0/poll[35]:Q (f)
+               +     1.683          net: poll_signal_c
+  3.490                        poll_signal_pad/U0/U1:D (f)
+               +     0.530          cell: ADLIB:IOTRI_OB_EB
+  4.020                        poll_signal_pad/U0/U1:DOUT (f)
+               +     0.000          net: poll_signal_pad/U0/NET1
+  4.020                        poll_signal_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  7.389                        poll_signal_pad/U0/U0:PAD (f)
+               +     0.000          net: poll_signal
+  7.389                        poll_signal (f)
+                                    
+  7.389                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock_divider_100_0/clk100:Q
+               +     0.000          Clock source
+  N/C                          clock_divider_100_0/clk100:Q (r)
+                                    
+  N/C                          poll_signal (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain clock_divider_100_1/clk100:Q
+
+SET Register to Register
+
+Path 1
+  From:                        clock_divider_100_2/counter[6]:CLK
+  To:                          clock_divider_100_2/clk100:D
+  Delay (ns):                  5.752
+  Slack (ns):
+  Arrival (ns):                8.402
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         7.729
+
+Path 2
+  From:                        clock_divider_100_2/counter[4]:CLK
+  To:                          clock_divider_100_2/clk100:D
+  Delay (ns):                  4.721
+  Slack (ns):
+  Arrival (ns):                6.865
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         6.192
+
+Path 3
+  From:                        clock_divider_100_2/counter[3]:CLK
+  To:                          clock_divider_100_2/clk100:D
+  Delay (ns):                  5.077
+  Slack (ns):
+  Arrival (ns):                6.501
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         5.828
+
+Path 4
+  From:                        clock_divider_100_2/counter[5]:CLK
+  To:                          clock_divider_100_2/clk100:D
+  Delay (ns):                  3.789
+  Slack (ns):
+  Arrival (ns):                6.482
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         5.809
+
+Path 5
+  From:                        clock_divider_100_2/counter[2]:CLK
+  To:                          clock_divider_100_2/clk100:D
+  Delay (ns):                  5.153
+  Slack (ns):
+  Arrival (ns):                6.460
+  Required (ns):
+  Setup (ns):                  0.649
+  Minimum Period (ns):         5.787
+
+
+Expanded Path 1
+  From: clock_divider_100_2/counter[6]:CLK
+  To: clock_divider_100_2/clk100:D
+  data required time                             N/C
+  data arrival time                          -   8.402
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock_divider_100_1/clk100:Q
+               +     0.000          Clock source
+  0.000                        clock_divider_100_1/clk100:Q (r)
+               +     2.650          net: clock_divider_100_1_clk100
+  2.650                        clock_divider_100_2/counter[6]:CLK (r)
+               +     0.595          cell: ADLIB:DFN1
+  3.245                        clock_divider_100_2/counter[6]:Q (f)
+               +     1.067          net: clock_divider_100_2/counter[6]
+  4.312                        clock_divider_100_2/counter_RNI6D4O[6]:B (f)
+               +     0.568          cell: ADLIB:NOR3
+  4.880                        clock_divider_100_2/counter_RNI6D4O[6]:Y (r)
+               +     1.390          net: clock_divider_100_2/clk1006_5
+  6.270                        clock_divider_100_2/clk100_RNO_0:C (r)
+               +     0.606          cell: ADLIB:NOR3C
+  6.876                        clock_divider_100_2/clk100_RNO_0:Y (r)
+               +     0.317          net: clock_divider_100_2/clk1007
+  7.193                        clock_divider_100_2/clk100_RNO:B (r)
+               +     0.895          cell: ADLIB:OA1B
+  8.088                        clock_divider_100_2/clk100_RNO:Y (r)
+               +     0.314          net: clock_divider_100_2/clk100_RNO_1
+  8.402                        clock_divider_100_2/clk100:D (r)
+                                    
+  8.402                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock_divider_100_1/clk100:Q
+               +     0.000          Clock source
+  N/C                          clock_divider_100_1/clk100:Q (r)
+               +     1.322          net: clock_divider_100_1_clk100
+  N/C                          clock_divider_100_2/clk100:CLK (r)
+               -     0.649          Library setup time: ADLIB:DFN1
+  N/C                          clock_divider_100_2/clk100:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+Path 1
+  From:                        readline
+  To:                          reset
+  Delay (ns):                  8.128
+  Slack (ns):
+  Arrival (ns):                8.128
+  Required (ns):
+
+
+Expanded Path 1
+  From: readline
+  To: reset
+  data required time                             N/C
+  data arrival time                          -   8.128
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        readline (r)
+               +     0.000          net: readline
+  0.000                        readline_pad/U0/U0:PAD (r)
+               +     0.967          cell: ADLIB:IOPAD_IN
+  0.967                        readline_pad/U0/U0:Y (r)
+               +     0.000          net: readline_pad/U0/NET1
+  0.967                        readline_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  1.006                        readline_pad/U0/U1:Y (r)
+               +     1.049          net: readline_c
+  2.055                        Read_buttons_0/prev_readline_RNIRQK62[4]:C (r)
+               +     0.369          cell: ADLIB:OA1B
+  2.424                        Read_buttons_0/prev_readline_RNIRQK62[4]:Y (f)
+               +     1.735          net: reset_c
+  4.159                        reset_pad/U0/U1:D (f)
+               +     0.600          cell: ADLIB:IOTRI_OB_EB
+  4.759                        reset_pad/U0/U1:DOUT (f)
+               +     0.000          net: reset_pad/U0/NET1
+  4.759                        reset_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  8.128                        reset_pad/U0/U0:PAD (f)
+               +     0.000          net: reset
+  8.128                        reset (f)
+                                    
+  8.128                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          readline (r)
+                                    
+  N/C                          reset (f)
+                                    
+  N/C                          data required time
+
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

@@ -1,0 +1,20 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'N:\cubot\Controller\designer'
+Info: The design Controller.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design Controller.adb.
+
+The Execute Script command succeeded ( 00:00:28 )
+Design saved to file N:\cubot\Controller\designer\impl1\Controller.adb.
+Wrote pin report to file: N:\cubot\Controller\designer\impl1\Controller_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: N:\cubot\Controller\designer\impl1\Controller_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:01 )
+Design closed.
+

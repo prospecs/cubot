@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Sat Dec 09 15:10:46 2017
+Project   :  N:\cubot\Controller
+Component :  Controller
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    N:/cubot/Controller/component/work/Controller/Controller.v
+
+Stimulus files for all Simulation tools:
+    N:/cubot/Controller/component/work/Controller/subsystem.bfm
+

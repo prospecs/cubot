@@ -1,0 +1,36 @@
+*****************************************************************
+Pin Report - Date: Sat Dec 09 15:22:33 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: Controller
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port             |Pin |Fixed |Function                  |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------------|----|------|--------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+buttons[0]        G4   Yes    GFC1/IO66PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[1]        H5   Yes    GFC0/IO66NPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[2]        H6   Yes    GFA1/IO64PDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[3]        J6   Yes    GFA0/IO64NDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[4]        B22  Yes    GBA2/IO20PDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[5]        C22  Yes    GBB2/IO20NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[6]        E1   No     GFC2/IO67PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+buttons[7]        F4   No     EMC_DB[10]/IO69NPB5V0      LVTTL    12                 High  None           ---              No    35                No           No
+clk100            E11  No     EMC_AB[4]/IO06NDB0V0       LVTTL    12                 High  None           ---              No    35                No           No
+poll_signal       E3   Yes    GFA2/IO68PDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[0]  K5   No     EMC_DB[2]/IO60NPB5V0       LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[1]  H1   No     EMC_DB[7]/GEB1/IO62PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[2]  J4   No     EMC_DB[3]/GEC2/IO60PPB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[3]  J3   No     EMC_DB[4]/GEA0/IO61NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[4]  F1   No     GFB1/IO65PPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[5]  G3   No     EMC_DB[9]/GEC1/IO63PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[6]  J1   No     EMC_DB[6]/GEB0/IO62NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[7]  G2   No     GFB0/IO65NPB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[8]  K3   No     EMC_DB[1]/GEB2/IO59PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+prev_readline[9]  H3   No     EMC_DB[8]/GEC0/IO63NDB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+readline          F3   Yes    GFB2/IO68NDB5V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+reset             F2   No     IO67NPB5V0                 LVTTL    12                 High  None           ---              No    35                No           No
+UART_0_RXD        U18  Yes    UART_0_RXD/GPIO_21         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD        Y22  Yes    UART_0_TXD/GPIO_20         LVTTL    8                  High  None           ---              No    35                No           Yes

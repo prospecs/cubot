@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Dec 05 15:42:16 2017
+Project   :  N:\cubot\Controller
+Component :  Controller_MSS
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    N:/cubot/Controller/component/work/Controller_MSS/Controller_MSS.v
+    N:/cubot/Controller/component/work/Controller_MSS/MSS_CCC_0/Controller_MSS_tmp_MSS_CCC_0_MSS_CCC.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    N:/cubot/Controller/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    N:/cubot/Controller/component/work/Controller_MSS/mss_tshell.v
+    N:/cubot/Controller/component/work/Controller_MSS/mss_tshell_syn.sdc
+
+Stimulus files for all Simulation tools:
+    N:/cubot/Controller/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    N:/cubot/Controller/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    N:/cubot/Controller/component/work/Controller_MSS/MSS_ENVM_0/test.bfm
+

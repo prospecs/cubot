@@ -1,0 +1,2 @@
+@E: CS101 :"N:\cubot\Controller\hdl\Read_buttons.v":27:30:27:40|Index 39 is out of range for variable button_read
+
