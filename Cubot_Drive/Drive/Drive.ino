@@ -5,7 +5,7 @@ int right = 10;
 int x = 0;
 int y = 0;
 int delta = 1;         // how many points to fade the LED by
-int32_t frequency = 400000;   //frequency (in Hz)
+int32_t frequency = 400;   //frequency (in Hz)
 
 void setup()
 {
